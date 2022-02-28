@@ -33,37 +33,11 @@ import logo_12 from '../../assets/logo/logo12.png'
 // import "../../assets/balay/css/nav.css"
 
 
-
-
-// <!-- Animate.css -->
-//     <link rel="stylesheet" href="balay/css/animate.css">
-//     <!-- Icomoon Icon Fonts-->
-//     <link rel="stylesheet" href="balay/css/icomoon.css">
-//     <!-- Bootstrap  -->
-//     <link rel="stylesheet" href="balay/css/bootstrap.css">
-//     <!-- Flexslider  -->
-//     <link rel="stylesheet" href="balay/css/flexslider.css">
-//     <!-- Flaticons  -->
-//     <link rel="stylesheet" href="balay/fonts/flaticon/font/flaticon.css">
-//     <!-- Owl Carousel -->
-//     <link rel="stylesheet" href="balay/css/owl.carousel.min.css">
-//     <link rel="stylesheet" href="balay/css/owl.theme.default.min.css">
-//     <!-- Theme style  -->
-//     <link rel="stylesheet" href="balay/css/style.css">
-//     <link rel="stylesheet" href="./assets/font-awesome-4.7.0/css/font-awesome.min.css">
-//     <!-- Modernizr JS -->
-//     <script src="balay/js/modernizr-2.6.2.min.js"></script>
-//     <!-- FOR IE9 below -->
-//     <!--[if lt IE 9]>
-//     	<script src="js/respond.min.js"></script>
-//     	<![endif]-->
-//     <link rel="stylesheet" href="balay/css/nav.css"></link>
-
 const AboutPage = () => {
 	return (
 		<>
 			<div className='logo'>
-				<a href='index.html'>
+				<a href='/'>
 					<p>Reglat-Construct</p>
 				</a>
 			</div>

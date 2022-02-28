@@ -14,7 +14,7 @@ const HomePage = () => {
 	return (
 		<div className='container-fluid main'>
 			<div className='logo-homepage'>
-				<a href='index.html'>
+				<a href='/'>
 					<p>Reglat-Construct</p>
 				</a>
 			</div>
