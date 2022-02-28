@@ -1,76 +1,84 @@
 import React from 'react';
+import "../../assets/balay/css/animate.css"
+import "../../assets/balay/css/flexslider.css"
+// import "../../assets/balay/js/modernizr-2.6.2.min.js"
+//import "../../assets/balay/css/owl.carousel.min.css"
+
+import "../../assets/balay/css/icomoon.css"
+import "../../assets/balay/css/bootstrap.css"
+import "../../assets/balay/css/style.css"
+import Footer from '../items/Footer';
+import Accordion from '../items/Accordion';
+import { accordionData } from '../../utils/_accordionData';
+import picture_1 from '../../assets/images/Picture1.png'
+import logo_1 from '../../assets/logo/logo1.png'
+import logo_2 from '../../assets/logo/logo2.png'
+import logo_3 from '../../assets/logo/logo3.png'
+import logo_4 from '../../assets/logo/logo4.png'
+import logo_5 from '../../assets/logo/logo5.jpg'
+import logo_6 from '../../assets/logo/logo6.png'
+import logo_7 from '../../assets/logo/logo7.png'
+import logo_8 from '../../assets/logo/logo8.png'
+import logo_9 from '../../assets/logo/logo9.png'
+import logo_10 from '../../assets/logo/logo10.png'
+import logo_11 from '../../assets/logo/logo11.png'
+import logo_12 from '../../assets/logo/logo12.png'
+
+
+// import "../../assets/balay/fonts/flaticon/font/flaticon.css"
+// import "../../assets/balay/css/owl.carousel.min.css"
+// import "../../assets/balay/css/owl.theme.default.min.css"
+// import "../../assets/font-awesome-4.7.0/css/font-awesome.min.css"
+// import "../../assets/balay/js/respond.min.js"
+// import "../../assets/balay/css/nav.css"
+
+
+
+
+// <!-- Animate.css -->
+//     <link rel="stylesheet" href="balay/css/animate.css">
+//     <!-- Icomoon Icon Fonts-->
+//     <link rel="stylesheet" href="balay/css/icomoon.css">
+//     <!-- Bootstrap  -->
+//     <link rel="stylesheet" href="balay/css/bootstrap.css">
+//     <!-- Flexslider  -->
+//     <link rel="stylesheet" href="balay/css/flexslider.css">
+//     <!-- Flaticons  -->
+//     <link rel="stylesheet" href="balay/fonts/flaticon/font/flaticon.css">
+//     <!-- Owl Carousel -->
+//     <link rel="stylesheet" href="balay/css/owl.carousel.min.css">
+//     <link rel="stylesheet" href="balay/css/owl.theme.default.min.css">
+//     <!-- Theme style  -->
+//     <link rel="stylesheet" href="balay/css/style.css">
+//     <link rel="stylesheet" href="./assets/font-awesome-4.7.0/css/font-awesome.min.css">
+//     <!-- Modernizr JS -->
+//     <script src="balay/js/modernizr-2.6.2.min.js"></script>
+//     <!-- FOR IE9 below -->
+//     <!--[if lt IE 9]>
+//     	<script src="js/respond.min.js"></script>
+//     	<![endif]-->
+//     <link rel="stylesheet" href="balay/css/nav.css"></link>
 
 const AboutPage = () => {
 	return (
 		<>
 			<div className='logo'>
 				<a href='index.html'>
-					{/* <!-- <img src="./assets/logo/main_logo.png" alt=""> --> */}
 					<p>Reglat-Construct</p>
 				</a>
-				{/* <!-- <img src="./assets/logo/main_logo.png" alt=""> --> */}
-			</div>
-			<div className='navigation'>
-				<input
-					type='checkbox'
-					className='navigation__checkbox'
-					id='nav-toggle'
-				/>
-				<label htmlFor='nav-toggle' className='navigation__button'>
-					<span
-						className='navigation__icon'
-						aria-label='toggle navigation menu'
-					></span>
-				</label>
-				<div className='navigation__background'></div>
-
-				<nav className='navigation__nav' role='navigation'>
-					<div className='container-fluid'>
-						<div className='row flex-nowrap navb'>
-							<div className='navigation__item col-md-4 bg1'>
-								<div className='card card-block card-text navcard'>
-									<a
-										href='index.html'
-										className='navigation__link'
-									>
-										Услуги
-									</a>
-								</div>
-							</div>
-							<div className='navigation__item  col-md-4 bg2'>
-								<div className='card card-block card-text navcard'>
-									<a
-										href='produse.html'
-										className='navigation__link'
-									>
-										Товары
-									</a>
-								</div>
-							</div>
-							<div className='navigation__item  col-md-4 bg3'>
-								<div className='card card-block card-text navcard'>
-									<a
-										href='about.html'
-										className='navigation__link'
-									>
-										О нас
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</nav>
 			</div>
 
 			<div className='colorlib-about'>
 				<div className='colorlib-narrow-content'>
 					<div className='row row-bottom-padded-md'>
 						<div className='col-md-6'>
-							<div
+							<img 
 								className='about-img animate-box'
-								data-animate-effect='fadeInLeft'
-								// style='background-image: url(assets/images/Picture1.png);'
-							></div>
+								//data-animate-effect='fadeInLeft'
+								alt="should be something here"
+								src={picture_1}
+							/>
+							
 						</div>
 						<div
 							className='col-md-6 animate-box'
@@ -133,29 +141,9 @@ const AboutPage = () => {
 								</div>
 							</div>
 							<div className='ac'>
-								<button className='accordion'>Section 1</button>
-								<div className='panel'>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur
-										adipisicing elit, sed do eiusmod tempor
-										incididunt ut labore et dolore magna
-										aliqua. Ut enim ad minim veniam, quis
-										nostrud exercitation ullamco laboris
-										nisi ut aliquip ex ea commodo consequat.
-									</p>
-								</div>
-
-								<button className='accordion'>Section 2</button>
-								<div className='panel'>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur
-										adipisicing elit, sed do eiusmod tempor
-										incididunt ut labore et dolore magna
-										aliqua. Ut enim ad minim veniam, quis
-										nostrud exercitation ullamco laboris
-										nisi ut aliquip ex ea commodo consequat.
-									</p>
-								</div>
+								{accordionData.map(data => {
+									return <Accordion key={data.name} {...data} />
+								})}
 							</div>
 						</div>
 					</div>
@@ -171,7 +159,7 @@ const AboutPage = () => {
 										<div className='square-holder'>
 											<img
 												alt=''
-												src='./assets/logo/logo1.png'
+												src={logo_1}
 											/>
 										</div>
 									</div>
@@ -179,7 +167,21 @@ const AboutPage = () => {
 										<div className='square-holder'>
 											<img
 												alt=''
-												src='./assets/logo/logo2.png'
+												src={logo_2}											/>
+										</div>
+									</div>
+									<div className='col-md-2 col-sm-4 col-xs-6 my-2'>
+										<div className='square-holder'>
+											<img
+												alt=''
+												src={logo_3}											/>
+										</div>
+									</div>
+									<div className='col-md-2 col-sm-4 col-xs-6 my-2'>
+										<div className='square-holder'>
+											<img
+												alt=''
+												src={logo_4}
 											/>
 										</div>
 									</div>
@@ -187,7 +189,7 @@ const AboutPage = () => {
 										<div className='square-holder'>
 											<img
 												alt=''
-												src='./assets/logo/logo3.png'
+												src={logo_5}
 											/>
 										</div>
 									</div>
@@ -195,7 +197,7 @@ const AboutPage = () => {
 										<div className='square-holder'>
 											<img
 												alt=''
-												src='./assets/logo/logo4.png'
+												src={logo_6}
 											/>
 										</div>
 									</div>
@@ -203,7 +205,7 @@ const AboutPage = () => {
 										<div className='square-holder'>
 											<img
 												alt=''
-												src='./assets/logo/logo5.jpg'
+												src={logo_7}
 											/>
 										</div>
 									</div>
@@ -211,7 +213,7 @@ const AboutPage = () => {
 										<div className='square-holder'>
 											<img
 												alt=''
-												src='./assets/logo/logo6.png'
+												src={logo_8}
 											/>
 										</div>
 									</div>
@@ -219,7 +221,7 @@ const AboutPage = () => {
 										<div className='square-holder'>
 											<img
 												alt=''
-												src='./assets/logo/logo7.png'
+												src={logo_9}
 											/>
 										</div>
 									</div>
@@ -227,7 +229,7 @@ const AboutPage = () => {
 										<div className='square-holder'>
 											<img
 												alt=''
-												src='./assets/logo/logo8.png'
+												src={logo_10}
 											/>
 										</div>
 									</div>
@@ -235,7 +237,7 @@ const AboutPage = () => {
 										<div className='square-holder'>
 											<img
 												alt=''
-												src='./assets/logo/logo9.png'
+												src={logo_11}
 											/>
 										</div>
 									</div>
@@ -243,24 +245,7 @@ const AboutPage = () => {
 										<div className='square-holder'>
 											<img
 												alt=''
-												src='./assets/logo/logo10.png'
-											/>
-										</div>
-									</div>
-									<div className='col-md-2 col-sm-4 col-xs-6 my-2'>
-										<div className='square-holder'>
-											<img
-												alt=''
-												src='./assets/logo/logo11.png'
-											/>
-										</div>
-									</div>
-									<div className='col-md-2 col-sm-4 col-xs-6 my-2'>
-										<div className='square-holder'>
-											<img
-												alt=''
-												src='./assets/logo/logo12.png'
-											/>
+												src={logo_12}											/>
 										</div>
 									</div>
 								</div>
@@ -268,9 +253,15 @@ const AboutPage = () => {
 						</div>
 					</section>
 				</div>
+			<Footer/>
 			</div>
 		</>
 	);
 };
 
 export default AboutPage;
+
+
+
+
+

@@ -5,10 +5,6 @@ const Navigation = () => {
 
 	const [visible, setVisible] = useState(false);
 
-	useEffect(() => {
-		console.log(visible);
-	}, [visible]);
-
 	return (
 		<div className='navigation'>
 			<input

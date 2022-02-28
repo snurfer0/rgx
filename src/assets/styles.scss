@@ -1,4 +1,9 @@
-@import './contact';
+@import './about';
 @import './index';
 @import './navigation';
-@import './products';
+@import './products' ; 
+
+
+html, body, #root {
+    height: 100%;
+}
