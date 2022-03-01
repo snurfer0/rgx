@@ -48,7 +48,7 @@ const AboutPage = () => {
 						<div className='col-md-6'>
 							<img 
 								className='about-img animate-box'
-								//data-animate-effect='fadeInLeft'
+								data-animate-effect='fadeInLeft'
 								alt="should be something here"
 								src={picture_1}
 							/>
